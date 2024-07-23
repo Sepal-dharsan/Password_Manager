@@ -3,7 +3,6 @@ from tkinter import messagebox
 import mysql.connector
 from mysql.connector import Error
 from cryptography.fernet import Fernet
-from PIL import Image, ImageTk
 
 # Generate a Fernet key
 encryption_key = b'hOj1NkmmBjYPqSXBmfPwYe8n7WAsjy1wP8sBpvoPCA4='
